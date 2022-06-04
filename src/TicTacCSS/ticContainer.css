@@ -1,0 +1,45 @@
+.container {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: 2px solid rgb(197, 200, 42);
+    border-radius: 2px;
+    background-color: ghostwhite;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid blue;
+    border-radius: 4px;
+    width: max-content;
+    height: max-content;
+    background-color: rgb(127, 231, 247);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.startBtn {
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgb(198, 239, 116);
+}

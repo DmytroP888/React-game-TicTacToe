@@ -1,4 +1,4 @@
-import Game from './components/Game';
+import Game from './components/Game'
 import './TicTacCSS/Tic-Tac.css'
 
   function App() {

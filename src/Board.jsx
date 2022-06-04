@@ -13,4 +13,5 @@ const Board = ({ squares, click }) => {
     )
 }
 
+
 export default Board

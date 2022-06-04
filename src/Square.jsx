@@ -1,5 +1,5 @@
-import React from 'react'
-import "./TicTacCSS/ticContainer.css"
+import React from 'react';
+import "./TicTacCSS/ticContainer.css";
 
 function Square(props) {
     return (

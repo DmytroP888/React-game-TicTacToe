@@ -13,5 +13,5 @@ import './TicTacCSS/Tic-Tac.css'
       </>
     )
   }
-
+  
 export default App;

@@ -7,5 +7,4 @@ function Square(props) {
         </div>
     )
 }
-
 export default Square
